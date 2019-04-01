@@ -17,7 +17,7 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 
-# server 放到xampp下的htdocs，注意路径和数据库配置
+# server下的gamerutopia放到xampp下的htdocs，注意路径和数据库配置
 
 # 项目如果需要放到云服务器上请注意以下事项
  1 把router history模式注释掉
