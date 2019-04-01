@@ -24,6 +24,7 @@ npm run build --report
  2 把所有接口路径改成线上路径 eg：http://193.112.100.227/gamerutopia/public/index/News/getNews
  3 如果项目打包出现路径错误，请参考https://www.cnblogs.com/wanf/p/7871787.html
  4 如果服务器报500错误，请为项目提供权限https://blog.csdn.net/qq_38410991/article/details/78980994
+ 5 修改后台database配置
 
 # 项目上云服务器
  1 npm run build
