@@ -3,6 +3,7 @@ import Vue from 'vue';
 import App from './App';
 import router from './router';
 import store from './vuex/store';
+import mutations from './vuex/mutations';
 import VueLazyload from 'vue-lazyload';
 import Axios from 'axios';
 import fastclick from 'fastclick';
@@ -56,6 +57,8 @@ Axios.interceptors.response.use(
       switch (error.response.status) {
       case 401:
         // 返回 401 清除token信息并跳转到登录页面
+        mutations.logout(store.state);
+        alert('身份过期请重新登录');
         router.replace({
           path: '/login',
           query: {redirect: router.currentRoute.fullPath}
