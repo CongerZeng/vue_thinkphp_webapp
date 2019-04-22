@@ -32,6 +32,7 @@ npm run build --report
  3 直接把server下的gamerutopia放到云服务器上的默认目录
 
 
-一路磕磕碰碰过来真的不容易，过几天可能会整理一下写个新手向，项目已经放腾讯云http://193.112.100.227/gamerutopia 感兴趣可以看下，虽然多多少少有bug，但是真的没什么精力再弄了
+一路磕磕碰碰过来真的不容易，过几天可能会整理一下写个新手向，项目已经放腾讯云http://193.112.100.227/gamerutopia 
+感兴趣可以看下，虽然多多少少有bug，但是真的没什么精力再弄了
 参考：边泉博客https://github.com/wjzbjzz/bianquan-blog.git
 资源：游民星空，bilibili
